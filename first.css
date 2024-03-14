@@ -10,7 +10,7 @@
     }
   
 
-.container{
+.main{
    border-radius: 10px;
    display: flex;
    height:500px;
@@ -34,7 +34,7 @@ h1,.price1{
     "WONK" 0;
 }
 
-.img{
+img{
    height:500px;
    width:350px;
    float: left;
@@ -42,7 +42,7 @@ h1,.price1{
    border-bottom-left-radius: 10px;
 
 }
-.main{
+.container{
    font-weight: 700;
    height: 350px;
    width:375px;
@@ -132,7 +132,7 @@ body{
  }
 
 
-.container{
+.main{
 border-radius: 10px;
 display: flex;
 height:500px;
@@ -164,7 +164,7 @@ border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 
 }
-.main{
+.container{
 font-weight: 700;
 height: 350px;
 width:375px;
@@ -260,7 +260,7 @@ width: 40px;
     }
   
 
-.container{
+.main{
    border-radius: 10px;
    display: flex;
    height:500px;
@@ -292,7 +292,7 @@ img{
    border-bottom-left-radius: 10px;
 
 }
-.main{
+.container{
    font-weight: 700;
    height: 350px;
    width:375px;
