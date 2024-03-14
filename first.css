@@ -34,7 +34,7 @@ h1,.price1{
     "WONK" 0;
 }
 
-img{
+.img{
    height:500px;
    width:350px;
    float: left;
@@ -42,7 +42,7 @@ img{
    border-bottom-left-radius: 10px;
 
 }
-#main{
+.main{
    font-weight: 700;
    height: 350px;
    width:375px;
@@ -65,7 +65,7 @@ p{
    
 }
 
-#button{
+.button{
    font-family: "Montserrat", sans-serif;
    font-optical-sizing: auto;
    font-weight: 500;
@@ -85,7 +85,7 @@ p{
   
    
 }
-#button:hover{
+.button:hover{
    cursor: pointer;
     color:hsl(212, 21%, 14%);
     background-color: hsl(158, 36%, 37%);}
