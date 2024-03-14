@@ -1,0 +1,388 @@
+*{
+   box-sizing:border-box ;
+    margin:0;
+    padding:0px;
+   }
+   body{
+      width:auto;
+      min-height: 70vh;
+      background-color:hsl(30, 38%, 92%);
+    }
+  
+
+.container{
+   border-radius: 10px;
+   display: flex;
+   height:500px;
+   width:700px ;
+   background-color: hsl(0, 0%, 100%) ;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:100px;
+   margin-bottom: 100px;
+}
+
+
+
+h1,.price1{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+img{
+   height:500px;
+   width:350px;
+   float: left;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+
+}
+.main{
+   font-weight: 700;
+   height: 350px;
+   width:375px;
+   display:flex;
+   flex-wrap:wrap;
+   text-align:left;
+   align-self:stretch;
+   margin-left: 30px;
+   margin-top: 80px;
+}
+
+p{ 
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   color:  hsl(228, 12%, 48%);
+   font-size: 14px;
+   /*font-weight: 500;*/
+   
+}
+
+.button{
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   color:hsl(0, 0%, 100%);
+   background-color: hsl(158, 36%, 37%);
+   flex-basis: auto;
+   display:flex;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+   align-self: center;
+   margin-right: 50px;
+   margin-left: 50px;
+  
+   
+}
+.button:hover{
+   cursor: pointer;
+    color:hsl(212, 21%, 14%);
+    background-color: hsl(158, 36%, 37%);}
+
+
+ul li{ 
+   list-style-type: none;
+}
+
+
+.price1{
+   color:hsl(158, 36%, 37%);
+   font-size:xx-large;
+   display: flex;
+   float: left;
+   
+}
+
+.price2{
+   text-decoration: line-through;
+   display: flex;
+   float: right;
+   margin-top: 10px;
+   margin-left: 25px;
+}
+
+.attribution{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 120px;
+}
+.icon{ 
+   color:hsl(0, 0%, 100%);
+   background-color: hsl(158, 36%, 37%);
+   height: 20px;
+   width: 40px;
+}
+@media only screen and (max-width:1440px){
+body{
+   width:auto;
+   min-height: 70vh;
+   background-color:hsl(30, 38%, 92%);
+ }
+
+
+.container{
+border-radius: 10px;
+display: flex;
+height:500px;
+width:700px ;
+background-color: hsl(0, 0%, 100%) ;
+margin-left: auto;
+margin-right: auto;
+margin-top:100px;
+margin-bottom: 100px;
+}
+
+
+
+h1,.price1{
+font-family: "Fraunces", serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style:normal;
+font-variation-settings:
+ "SOFT" 0,
+ "WONK" 0;
+}
+
+img{
+height:500px;
+width:350px;
+float: left;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+}
+.main{
+font-weight: 700;
+height: 350px;
+width:375px;
+display:flex;
+flex-wrap:wrap;
+text-align:left;
+align-self:stretch;
+margin-left: 30px;
+margin-top: 80px;
+}
+
+p{ 
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+color:  hsl(228, 12%, 48%);
+font-size: 14px;
+/*font-weight: 500;*/
+
+}
+
+.button{
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+color:hsl(0, 0%, 100%);
+background-color: hsl(158, 36%, 37%);
+flex-basis: auto;
+display:flex;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+align-self: center;
+margin-right: 50px;
+margin-left: 50px;
+
+
+}
+.button :hover{
+cursor: pointer;
+ color:hsl(212, 21%, 14%);
+ background-color: hsl(158, 36%, 37%);}
+/*
+.icon:hover{
+   cursor: pointer;
+    color:hsl(212, 21%, 14%);
+    background-color: hsl(158, 36%, 37%);}*/
+
+ul li{ 
+list-style-type: none;
+}
+
+
+.price1{
+color:hsl(158, 36%, 37%);
+font-size:xx-large;
+display: flex;
+float: left;
+
+}
+
+.price2{
+text-decoration: line-through;
+display: flex;
+float: right;
+margin-top: 10px;
+margin-left: 25px;
+}
+
+.attribution{
+ display:flex;
+ justify-content: center;
+ align-content: center;
+ margin-left: 120px;
+}
+.icon{ 
+color:hsl(0, 0%, 100%);
+background-color: hsl(158, 36%, 37%);
+height: 20px;
+width: 40px;
+}
+}
+
+@media only screen and (min-width: 375px) { 
+    body{
+      width:auto;
+      min-height: 70vh;
+      background-color:hsl(30, 38%, 92%);
+    }
+  
+
+.container{
+   border-radius: 10px;
+   display: flex;
+   height:500px;
+   width:700px ;
+   background-color: hsl(0, 0%, 100%) ;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:100px;
+   margin-bottom: 100px;
+}
+
+
+
+h1,.price1{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+img{
+   height:500px;
+   width:350px;
+   float: left;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+
+}
+.main{
+   font-weight: 700;
+   height: 350px;
+   width:375px;
+   display:flex;
+   flex-wrap:wrap;
+   text-align:left;
+   align-self:stretch;
+   margin-left: 30px;
+   margin-top: 80px;
+}
+
+p{ 
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   color:  hsl(228, 12%, 48%);
+   font-size: 14px;
+   /*font-weight: 500;*/
+   
+}
+
+.button{
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   color:hsl(0, 0%, 100%);
+   background-color: hsl(158, 36%, 37%);
+   flex-basis: auto;
+   display:flex;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+   align-self: center;
+   margin-right: 50px;
+   margin-left: 50px;
+  
+   
+}
+.button:hover{
+   cursor: pointer;
+    color:hsl(212, 21%, 14%);
+    background-color: hsl(158, 36%, 37%);}
+
+    /*
+.icon:hover{
+      cursor: pointer;
+       color:hsl(212, 21%, 14%);
+       background-color: hsl(158, 36%, 37%);}*/
+
+ul li{ 
+   list-style-type: none;
+}
+
+
+.price1{
+   color:hsl(158, 36%, 37%);
+   font-size:xx-large;
+   display: flex;
+   float: left;
+   
+}
+
+.price2{
+   text-decoration: line-through;
+   display: flex;
+   float: right;
+   margin-top: 10px;
+   margin-left: 25px;
+}
+
+.attribution{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 120px;
+}
+.icon{ 
+   color:hsl(0, 0%, 100%);
+   background-color: hsl(158, 36%, 37%);
+   height: 20px;
+   width: 40px;
+}
+
+
+   }
+
+
+
+
